@@ -5,7 +5,9 @@
     <title>Proyecto jQuery.</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     <link id="theme" rel="stylesheet" type="text/css" href="css/green.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.structure.min.css" />
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.theme.min.css" />
 </head>
 <body> 
     <div id="selector-theme">
@@ -21,27 +23,35 @@
             <div class="clearfix"></div>
             <nav id="menu">
                 <ul >
-                    <li><a href="#">INICIO</a></li>
+                    <li><a href="index.html">INICIO</a></li>
                     <li><a href="#">RELOJ</a></li>
                     <li><a href="about.html">SOBRE MI</a></li>
                     <li><a href="#">CONTACTO</a></li>
                 </ul>
             </nav>
         </header>
-        <div id="slider">
-            <div class="galeria">
-                <div><img src="img/hojas.jpg" title="Hojas"></div>
-                <div><img src="img/rojo.jpg" title="Rojo"></div>
-                <div><img src="img/cielo.jpg" title="Cielo"></div>
-              </div>
-        </div>
         <section id="content">
-            <div id="posts">
-               
+            <div id="box">
+                <h2>Sobre mi</h2>
+                <div id="acordeon">
+                    <h3>¿Quienes somos?</h3>
+                    <div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae unde distinctio similique repellendus inventore cum velit accusantium, ullam earum expedita dicta exercitationem aliquid facilis fugiat rem aperiam itaque aliquam perspiciatis?</p>
+                    </div>
+                    <h3>Nuestros servicios</h3>
+                    <div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae unde distinctio similique repellendus inventore cum velit accusantium, ullam earum expedita dicta exercitationem aliquid facilis fugiat rem aperiam itaque aliquam perspiciatis?</p>
+                    </div>
+                    <h3>¿Quienes somos?</h3>
+                    <div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae unde distinctio similique repellendus inventore cum velit accusantium, ullam earum expedita dicta exercitationem aliquid facilis fugiat rem aperiam itaque aliquam perspiciatis?</p>
+                    </div>
+                </div>
+             </div>
             </div>
             <aside id="sidebar">
                 <div id="about">
-                    <h4><span>¿Quien soy?</span></h4>
+                    <h4><span>Nuestros clientes</span></h4>
                     <img src="img/caracol.jpg"/>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur dignissimos possimus sunt id ipsam est, eveniet corporis quo sapiente dicta rerum illum suscipit, dolores similique sed, voluptatibus excepturi accusamus placeat!</p>
                 </div>
@@ -75,11 +85,10 @@
          <a href="#" class="subir">Ir arriba</a>
      </footer>
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui-1.12.1/"></script>
     <script type="text/javascript" src="js/main.js"></script>
    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+   
     </body>
 </html>
