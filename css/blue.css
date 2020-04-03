@@ -1,5 +1,6 @@
 body{
-    background: url('../img/cielo.jpg');
+   /* background: url('../img/cielo.jpg');*/
+   background-color:#1f87c4 ;
     background-attachment: fixed;
 }
 
